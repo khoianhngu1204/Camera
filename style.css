@@ -1,0 +1,96 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: none;
+}
+
+
+#Heading{
+  box-shadow: 5px 5px 5px rgb(0, 0, 0.1);
+  background-color: rgb(243, 220, 178);
+}
+
+
+#Heading .Icon-header{
+  background-color: rgb(243, 220, 178);
+  margin: 0px;
+  width: 100px;
+  float: left;
+}
+
+
+#Heading .Menu li{
+  margin: 0px;
+  padding: 43px;
+  display: inline-block;
+  position: relative;
+
+}
+
+#Heading .Main-menu{
+  color: red;
+}
+
+#Heading .Menu a{
+  text-decoration: none;
+  text-align: justify;
+}
+
+
+#Heading .Main-menu:Hover{
+  color: cadetblue;
+}
+
+
+#Heading .sub-menu{
+  color: red;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+/* #Heading .menu:Hover .sub-menu{
+  display: inline-block;
+  position: absolute;
+  color: yellow;
+} */
+
+
+
+/* #Heading .sub-menu{
+  display: block;
+} */
+
+#wrapper{
+  width: 1366px;
+  margin: 0px;
+  padding: 10px;
+}
+
+#Left{
+  float: left;       
+  width: 20%;
+  background-color: white;
+}
+
+#Content{
+  float: left;
+  width: 60%;
+  height: 90%;
+  background-color: white;
+  font-size: large;
+}
+
+#Right{
+  float: left;
+  width: 20%;
+  background-color: white;
+}
+
+#Footer{
+  clear: both;
+  float: both;
+  width: 100%;
+  height: 10%;
+  background-color: white;
+}
